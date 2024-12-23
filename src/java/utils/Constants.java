@@ -2,9 +2,8 @@ package utils;
 
 public class Constants {
 
-    public static final String GOOGLE_CLIENT_ID = "381681113764-hsaf7orbp826di9c40annfk7fidqmgiq.apps.googleusercontent.com";
-
-    public static final String GOOGLE_CLIENT_SECRET = "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";
+  public static final String GOOGLE_CLIENT_ID = System.getenv("GOOGLE_CLIENT_ID");
+    public static final String GOOGLE_CLIENT_SECRET = System.getenv("GOOGLE_CLIENT_SECRET");
 
     public static final String GOOGLE_REDIRECT_URI = "http://localhost:9999/ManageLodgingHouse/LoginByGoogle";
 
